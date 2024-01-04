@@ -2,7 +2,7 @@ import React from 'react';
 
 import Home from 'pages/Home';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div>
       <Home />
