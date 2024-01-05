@@ -8,7 +8,8 @@ const Home: React.FC = () => {
   // const accessToken = useCustomSelector((state) => state.auth.accessToken);
   const dispatch = useCustomDispatch();
 
-  console.log(auth);
+  // console.log(auth);
+  console.log(auth.accessToken);
   // console.log(accessToken);
 
   function handleLogin(): void {
